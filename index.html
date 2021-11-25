@@ -12,6 +12,7 @@
 <body>
   <nav class="menu">
     <ul>
+      <li><a href="#como-funciona">Como Funciona</a></li>  
       <li><a href="#animais">Importância da Coleta</a></li>
       <li><a href="#quem-somos">Quem Somos</a></li>
       <li><a href="#faq">Faq</a></li>
@@ -19,8 +20,32 @@
       <li><a href="#contato">Contato</a></li>
     </ul>
   </nav>
+  </section>
+
+  <section class="grid-section quem-somos" id="quem-somos">
+    <h1 class="titulo titulo-nos">Como Funciona? </h1>
+    <div class="quem-somos-texto">
+      <p><span class="titulo-quem-somos"> </span> Já possui os aparelhos separados? Se sim, então basta entrar em contato conosco para 
+        <span class="bold">agendar </span> o dia e o horário da coleta. Para você que gostaria de ser nosso parceiro (empresas, escolas, condomínios e comércios), <span class="bold">fornecemos</span> coletores e materiais explicativos para deixar no local cadastrado. Entre em contato e conheça nossos benefícios exclusivos para parceiros.</p></br>
+      <div class="figuras">
+        <div class="figura1">
+          <img src="img/img2.png">
+        </div>
+      </div>
+
+      <p><span class="titulo-quem-somos">A Coleta:</span> Para agendar a retirada dos aparelhos, baixe nosso <a href="page2.html"><span class="titulo-quem-somos link">App.</a></span></p></br> 
+      <div class="figuras">
+        <div class="figura2">
+          <img src="img/img3.png">
+        </div>
+      </div>
+
+      <p><span class="titulo-quem-somos">Recibo da Coleta: </span> no momento da retirada dos equipamentos, será fornecido um recibo nominal e um relatório de descarte consciente. Trabalhamos com empresas certificadas para o processo de reciclagem e reutilização consciente.</p>
+    </div>
+  </section>
+
   <section class="grid-section animais" id="animais">
-    <h1 class="titulo">Importância da Coleta</h1>
+    <h1 class="titulo">Importância da Coleta </h1>
     <ul class="animais-lista js-tabmenu">
       <li>
         <img src="img/imagem1.jpg">
@@ -129,16 +154,12 @@
         <p><strong>Informe seus dados:</strong></p>
       </div>
       <form>
-        <fieldset class="grupo">
+
           <div class="campo">
-            <label for="nome">Nome</label>
+            <label class="borda" for="nome">Nome Completo</label>
             <input type="text" name="nome" id="nome" required>
           </div>
-          <div class="campo">
-            <label for="sobrenome">Sobrenome</label>
-            <input type="text" name="sobrenome" id="sobrenome" required>
-          </div>
-        </fieldset>
+
 
         <div class="campo">
           <label for="email">E-mail</label>
@@ -152,7 +173,7 @@
 
         <fieldset class="grupo">
           <div id="check">
-            <label><strong> Quais materias serão coletados?</strong></label><br>
+            <label><strong>Quais materias deseja descartar?</strong></label><br>
             <input type="checkbox" id="item1" name="item1" value="celular">
             <label for="item1">Celular</label>
 
